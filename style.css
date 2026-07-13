@@ -127,3 +127,191 @@ button {
   margin: 10px 0;
   font-size: 20px;
 }
+
+.pricing {
+  width: 90%;
+  max-width: 1200px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.pricing h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  padding: 40px;
+
+}
+
+.cards-1 {
+
+  border-radius: 15px;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, .1);
+}
+
+.cards-1 p {
+  margin-bottom: 20px;
+}
+
+.card-active p {
+  margin-bottom: 20px;
+
+}
+
+.card-active {
+  border-radius: 15px;
+  padding: 40px;
+  text-align: left;
+  box-shadow: 15px 15px 30px gray);
+  background-color: #0D1B2A;
+  color: #ffffff;
+}
+
+.cards-1-button {
+  margin-top: 35px;
+  border: 2px solid;
+  border-color: #2563eb;
+  border-radius: 8px;
+  color: #2563eb;
+  background-color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 60px;
+
+
+}
+
+.card-active-button {
+  margin-top: 35px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+
+  padding: 10px 70px;
+  color: #ffffff;
+  background-color: #2563eb;
+
+
+}
+
+.cards-1 h4 {
+  color: #888888FF;
+  font-size: 13px;
+}
+
+.cards-1 p {
+  color: #888888FF;
+  font-size: 13px;
+
+}
+
+.cards-1 ul {
+  line-height: 1.5;
+}
+
+.cards-1 h2 {
+  color: #0d1b2aFF;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.card-active h4 {
+  color: #93c5fdFF;
+  ;
+  font-size: 13px;
+}
+
+.card-active p {
+  color: #888888FF;
+  font-size: 13px;
+
+}
+
+.card-active h2 {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.card-active ul {
+  line-height: 1.5;
+}
+
+.hackathon {
+  padding: 80px 10%;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hackathon h2 {
+  font-size: 42px;
+  color: #0f172a;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  color: #64748b;
+  line-height: 1.7;
+}
+
+.hackathon-card {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 240px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+
+}
+
+
+.box h3 {
+  margin-bottom: 15px;
+  color: #2563eb;
+}
+
+.box p {
+  color: #475569;
+}
+
+.hackathon-button {
+  display: inline-block;
+  margin-top: 50px;
+  text-decoration: none;
+  background: #2563eb;
+  color: #fff;
+  padding: 15px 35px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hackathon-button {
+  background: #1d4ed8;
+}
